@@ -1,0 +1,123 @@
+@include media-md {
+    .menu-btn {
+        visibility: hidden;
+    }
+
+    .nav {
+        visibility: visible;
+
+        .menu-nav {
+            display: block;
+            transform: translateX(0);
+            height: 100%;
+            background: transparent;
+            text-align: right;
+
+            &__item {
+                display: inline;
+                padding-right: 2.5rem;
+                background: lighten($primary-color, $amount: 5%);
+                padding: 0.3rem;
+            }
+
+            &__link {
+                font-size: 1.3rem;
+                
+            }
+        }
+    }
+
+    .about__bio {
+        font-size: 1.5rem;
+        
+    }
+
+    .projects {
+        &__bio-image {
+            height: 70vh;
+            
+        }
+        &__items {
+            
+            grid-template-columns: repeat(2, 1fr);
+        }
+        
+        .text-secondary {
+            font-size: 2rem;
+        }
+    }
+
+    .contact__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+
+}
+
+@include media-lg  {
+    .home {
+        
+        padding-top: 80vh;
+    }
+    .projects {
+        &__bio-image {
+            height: 70vh;
+            
+        }
+        &__items {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .text-secondary {
+            font-size: 3rem;
+        }
+    }
+    .contact {
+        height: 100vh;
+        
+        h2 {
+            font-size: 3rem;
+        }
+    }
+    .contact__list {
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 1.5rem;
+    }
+
+    .about__bio {
+        .text-secondary {
+            font-size: 3rem;
+        }
+    }
+    .jobs {
+        &__job {
+            grid-template-columns: repeat(2, 1fr);
+            }
+    }
+}
+
+@include media-xl {
+    .nav {
+        visibility: visible;
+        .menu-nav {
+            &__item {
+                display: inline;
+                padding-right: 3.5rem;
+            }
+        }
+    }
+
+    .about {
+        .text-secondary {
+            font-size: 2rem;
+        }
+        p {
+            font-size: 1rem;
+            }
+    }
+
+    .contact {
+        h2 {
+            margin-top: 150px;
+        }
+    }
+}
