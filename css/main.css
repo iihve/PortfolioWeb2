@@ -7,7 +7,7 @@
 
 .home {
   height: 100%;
-  padding-top: 65vh;
+  padding-top: 45vh;
   overflow: hidden;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -379,7 +379,7 @@
 
 .contact {
   height: 100%;
-  padding-top: 45vh;
+  padding-top: 55vh;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -415,6 +415,11 @@
 .contact .social-icons {
   position: initial;
   margin-top: 1rem;
+}
+
+.contact footer {
+  -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
+          transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
 @media screen and (min-width: 768px) {

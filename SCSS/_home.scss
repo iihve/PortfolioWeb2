@@ -5,7 +5,6 @@
     align-items: center;
     text-align: center;
     background:
-    
         linear-gradient(
             to right,
             rgba($primary-color, 0.5),
@@ -24,18 +23,7 @@
             font-weight: 650;
         }
     }
-    // .social-icons {
-    //     font-size: .7rem;
-    // }
     .social-icons {
-        display: flex;
-        flex-direction: column;
         font-size: .7rem;
-    }
-
-    footer {
-        transform:
-        rotate(90deg)
-        translate(-3rem, -5rem);
     }
 }
