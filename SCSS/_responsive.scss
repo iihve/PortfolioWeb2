@@ -26,11 +26,13 @@
             }
         }
     }
+    
 
     .about__bio {
         font-size: 1.5rem;
-        
     }
+    
+    
 
     .projects {
         &__bio-image {
@@ -45,8 +47,12 @@
         .text-secondary {
             font-size: 2rem;
         }
+        
     }
 
+    .contact {
+        padding-top: 45vh;
+    }
     .contact__list {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -82,17 +88,14 @@
         grid-template-columns: repeat(3, 1fr);
         font-size: 1.5rem;
     }
+    
 
     .about__bio {
         .text-secondary {
             font-size: 3rem;
         }
     }
-    .jobs {
-        &__job {
-            grid-template-columns: repeat(2, 1fr);
-            }
-    }
+    
 }
 
 @include media-xl {
