@@ -1,6 +1,6 @@
 .contact {
     height: 100%;
-    padding-top: 45vh;
+    padding-top: 55vh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -24,14 +24,25 @@
         grid-template-columns: 1fr;
         grid-gap: .5rem;
         font-size: 1rem;
-        // background: ($primary-color);
         padding: 2rem;
         border-bottom: 5px solid $secondary-color;
 
     }
 
+    // .social-icons {
+    //     position: initial;
+    //     margin-top: 1rem;
+    // }
+
     .social-icons {
-        position: initial;
-        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        font-size: .7rem;
+    }
+
+    footer {
+        transform:
+        rotate(90deg)
+        translate(-3rem, -5rem);
     }
 }
