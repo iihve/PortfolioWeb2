@@ -459,6 +459,9 @@
   .projects .text-secondary {
     font-size: 2rem;
   }
+  .contact {
+    padding-top: 45vh;
+  }
   .contact__list {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
@@ -492,10 +495,6 @@
   }
   .about__bio .text-secondary {
     font-size: 3rem;
-  }
-  .jobs__job {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
   }
 }
 
