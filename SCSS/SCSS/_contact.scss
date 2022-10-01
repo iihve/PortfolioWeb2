@@ -1,0 +1,44 @@
+.contact {
+    height: 100%;
+    padding-top: 50vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:
+        linear-gradient(
+            to right,
+            rgba($primary-color, 0.5),
+            rgba($primary-color, 0.2)
+        ),
+    // url('../images/IMG_9113.PNG') center top;
+    // url('../images/indiraTrenNoPeloEnLaManga.jpg') center top;
+    url('../images/IndiraTrenNoPeloEnLaManga.jpg') center top;
+    background-size: cover;
+
+    h2 {
+        font-size: 2.0rem;
+        margin-bottom: 0rem;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: .5rem;
+        font-size: 1rem;
+        padding: 2rem;
+        border-bottom: 5px solid $secondary-color;
+
+    }
+
+    .social-icons {
+        position: initial;
+        margin-top: 1rem;
+    }
+
+    footer {
+        transform:
+        rotate(90deg)
+        translate(-3rem, -5rem);
+    }
+}
